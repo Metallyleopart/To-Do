@@ -131,12 +131,11 @@ body{
 }
 
 .container .todo-app ul li::before{
-  content: "";
+  content: "<ion-icon name="ellipse-outline"></ion-icon>";
   position: absolute;
   height: 28px;
   width: 28px;
   border-radius: 50%;
-  background-image: url(/src/img/unchecked.png);
   background-size: cover;
   background-position: center;
   top: 12px;
@@ -149,7 +148,7 @@ body{
 }
 
 .container .todo-app ul li.checked::before{
-  content: "";
+  content: "<ion-icon name="checkmark-circle-outline"></ion-icon>";
   z-index: 10;
   background-image: url(/src/img/checked.png);
   }

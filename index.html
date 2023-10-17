@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>To-Do List</title>
-  <link rel="stylesheet" href="src/css/style.css">
-</head>
-<body>
-  
-  <div class="container">
-    <div id="alert" class="hidden alert">
-      <p>Isi dulu bang</p>
-    </div>
-    <div class="todo-app">
-      <h2>To-Do List <img src="/src/img/checklist.png" alt="" srcset=""></h2>
-      <div class="row">
-        <input id="text-box" placeholder="Add your text" type="text">
-        <button onclick="addTask()">Add</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div id="alert" class="hidden alert">
+        <p>Diisi dulu bang</p>
       </div>
-      <ul id="list-container">
-      </ul>
+      <div class="todo-app">
+        <h2>To-Do List <img src="/src/img/checklist.png" alt="" srcset="" /></h2>
+        <div class="row">
+          <input id="text-box" placeholder="Add your text" type="text" />
+          <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container"></ul>
+      </div>
     </div>
-  </div>
 
-  <script src="src/js/script.js"></script>
-</body>
+    <script src="src/js/script.js"></script>
+  </body>
 </html>
