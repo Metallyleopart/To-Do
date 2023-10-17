@@ -132,7 +132,7 @@ body{
   width: 28px;
   border-radius: 50%;
   z-index: 0;
-  background-image: url(/src/img/unchecked.png);
+  background-image: url(https://github.com/Metallyleopart/To-Do/blob/main/src/img/unchecked.png);
   background-size: cover;
   background-position: center;
   top: 12px;
@@ -147,5 +147,5 @@ body{
 .container .todo-app ul li.checked::before{
   content: "";
   z-index: 10;
-  background-image: url(/src/img/checked.png);
+  background-image: url(https://github.com/Metallyleopart/To-Do/blob/main/src/img/checked.png);
 }
