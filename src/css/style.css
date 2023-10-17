@@ -136,7 +136,7 @@ body{
   height: 28px;
   width: 28px;
   border-radius: 50%;
-  background-image: url("../img/unchecked.jpg");
+  background-image: url(./src/img/unchecked.jpg);
   background-size: cover;
   background-position: center;
   top: 12px;
@@ -151,6 +151,5 @@ body{
 .container .todo-app ul li.checked::before{
   content: "";
   z-index: 10;
-  /* coba pakai svg */
-  background-image: url("../img/checked.jpg");
+  background-image: url(./src/img/checked.jpg);
   }
