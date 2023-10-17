@@ -28,14 +28,19 @@ body{
 
 .alert {
   position: absolute;
-  top: 0;
+  width: 75%;
+  right: 0;
   left: 0;
-  width: 100%;
+  top: 0;
+  margin: auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   padding: 20px;
-  background-color: red;
+  background-color: #FF5945;
   color: white;
   text-align: center;
-  z-index: 1000;
+  z-index: 100;
+  font-size: larger;
   transition: all 0.5s ease;
 }
 
@@ -131,8 +136,7 @@ body{
   height: 28px;
   width: 28px;
   border-radius: 50%;
-  z-index: 0;
-  background-image: url(https://github.com/Metallyleopart/To-Do/blob/main/src/img/unchecked.png);
+  background-image: url(/src/img/unchecked.png);
   background-size: cover;
   background-position: center;
   top: 12px;
@@ -147,5 +151,5 @@ body{
 .container .todo-app ul li.checked::before{
   content: "";
   z-index: 10;
-  background-image: url(https://github.com/Metallyleopart/To-Do/blob/main/src/img/checked.png);
-}
+  background-image: url(/src/img/checked.png);
+  }
