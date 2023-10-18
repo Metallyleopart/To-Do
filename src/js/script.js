@@ -13,7 +13,7 @@ function addTask() {
       alert.classList.add("hidden");
       // alert akan hilang ketika lebih dari 3 detik
     }, 3000);
-  } else if (inputBox.value.length > 25) {
+  } else if (inputBox.value.length > 20) {
     alert2.classList.remove("hidden");
     setTimeout(() => {
       alert2.classList.add("hidden");
