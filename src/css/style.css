@@ -44,6 +44,24 @@ body{
   transition: all 0.5s ease;
 }
 
+.alert2 {
+  position: absolute;
+  width: 75%;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin: auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 20px;
+  background-color: #FF5945;
+  color: white;
+  text-align: center;
+  z-index: 100;
+  font-size: larger;
+  transition: all 0.5s ease;
+}
+
 .hidden {
   transform: translateY(-100%);
 }
@@ -101,6 +119,7 @@ body{
 
 .container .todo-app ul{
   position: relative;
+  overflow: hidden;
 }
 
 .container .todo-app ul span{
